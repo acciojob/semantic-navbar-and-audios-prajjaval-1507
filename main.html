@@ -4,21 +4,42 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Semantic audio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<header>
+	<h1r>
 		3 random audios
 		
-	</header>
+	</h1>
 	<nav>
 		<ul>
-			<li><a href="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">DOG</a></li>
-			<li><a href="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">CAT</a></li>
-			<li><a href="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">FOX</a></li>
+			<li><a href="#dog1">DOG</a></li>
+			<li><a href="#cat2">CAT</a></li>
+			<li><a href="#fox3">FOX</a></li>
 		</ul>
 	</nav>
+
+	<header>
+		<h2>3 random audios</h2>
+	</header>
+
+
+	<section>
+		<audio id = "dog1" controls>
+			<source src = "http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3">
+			
+		</audio>
+
+		<audio id ="cat2" controls>
+			<source src ="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
+		</audio>
+
+		<audio id = "fox3" controls>
+			<source src ="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3">
+		</audio>		
+	</section>
     <script type="text/javascript" src="./script.js">
 </script>
 
